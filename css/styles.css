@@ -215,13 +215,6 @@ a:hover {
     line-height: 1.5;
   }
 
-  h2 {
-    color: #66BFBF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    font-weight: normal;
-  }
-
   .top-cloud {
     position: absolute;
     padding-top: 3.125rem;

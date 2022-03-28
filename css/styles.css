@@ -11,7 +11,8 @@ h1 {
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-color: blue;
-  line-height: 1;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 h2 {
@@ -28,6 +29,7 @@ h3 {
 
 p {
   line-height: 2;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -41,18 +43,48 @@ a:hover {
   color: #EAF6F6;
 }
 
-.topConainer {
+#nav-section {
   background-color: #E4F9F5;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+#top-section {
+  background-color: #E4F9F5;
+}
+
+.top-container {
   position: relative;
-  padding-top: 175px;
+  padding-top: 6.25rem;
 }
 
 .top-cloud {
   position: absolute;
-  padding-top: 50px;
-  right: 300px;
-  top: 60px;
-  margin-top: 10px;
+  padding-top: 3.125rem;
+  right: 18rem;
+  top: 2rem;
+  margin-top: 0.625rem;
 }
 
 .bottom-cloud {
@@ -62,18 +94,18 @@ a:hover {
 }
 
 .profile {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 .boy-img-container {
   height: 256px;
   width: 256px;
   display: inline-block;
-  background-color: grey;
+  background-color: #e0ebe8;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 1.5rem auto;
 }
 
 .boy-img {
@@ -93,6 +125,7 @@ a:hover {
   border-width: 10px;
   width: 5%;
   margin: 100px auto;
+  background-color: transparent;
 }
 
 .skill-row {
@@ -162,4 +195,89 @@ a:hover {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+@media (max-width: 1028px) {
+
+  .top-container {
+    padding-top: 6.25rem;
+    font-size: 1rem;
+  }
+
+  .top-cloud {
+    position: absolute;
+    padding-top: 3.125rem;
+    right: 1rem;
+    top: 1rem;
+    margin-top: 0.625rem;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 1rem;
+    bottom: 18rem;
+  }
+
+  .mountain-img {
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .profile {
+    margin-top: 6.25rem;
+  }
+
+  .boy-img-container {
+    height: 11rem;
+    width: 11rem;
+    display: inline-block;
+    background-color: #e0ebe8;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto 10px auto;
+  }
+
+  .boy-img {
+    position: absolute;
+    top: 1.875rem;
+    right: 1.25rem;
+    max-width: 95%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .hi {
+    margin-top: 0.5rem;
+  }
+
+  .who-i-am {
+    margin: auto;
+    width: 80%;
+  }
+
+  .if-you-need-it {
+    margin: auto;
+    margin-top: 0.5rem;
+    width: 80%;
+  }
+
+  .dots {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 10px;
+    width: 15%;
+    margin: 100px auto;
+    background-color: transparent;
+  }
+
+  .skill-row {
+    width: 70%;
+    margin: 6.25rem auto;
+    text-align: left;
+    overflow: auto;
+  }
+
 }

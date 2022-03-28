@@ -1,3 +1,3 @@
 # Hello! Welcome to my site.
 
-Link: danielcherny.com
+Link: www.danielcherny.com

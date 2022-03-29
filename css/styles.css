@@ -72,6 +72,10 @@ a:hover {
   color: #11999E;
 }
 
+.navbar-toggler {
+  margin-right: 1.5rem;
+}
+
 #top-section {
   background-color: #E4F9F5;
 }

@@ -18,8 +18,6 @@ h1 {
 h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
 }
 
 h3 {
@@ -89,6 +87,11 @@ a:hover {
   right: 18rem;
   top: 2rem;
   margin-top: 0.625rem;
+}
+
+#top-section h2 {
+  font-size: 2rem;
+  font-weight: normal;
 }
 
 .bottom-cloud {

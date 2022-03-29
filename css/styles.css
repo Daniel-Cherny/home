@@ -89,8 +89,8 @@ a:hover {
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
-  bottom: 300px;
+  left: 18.75rem;
+  bottom: 18.75rem;
 }
 
 .profile {
@@ -226,7 +226,7 @@ a:hover {
   .bottom-cloud {
     position: absolute;
     left: 1rem;
-    bottom: 18rem;
+    bottom: 15rem;
   }
 
   .mountain-img {

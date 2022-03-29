@@ -230,10 +230,18 @@ a:hover {
     margin-top: 0.625rem;
   }
 
+  .im-daniel {
+    margin-top: 5rem;
+  }
+
   .bottom-cloud {
     position: absolute;
     left: 1rem;
-    bottom: 15rem;
+    bottom: 20rem;
+  }
+
+  .mountain-img-container {
+    padding-top: 4rem;
   }
 
   .mountain-img {
